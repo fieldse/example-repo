@@ -48,6 +48,16 @@
 ### Show
 
 - [ ] Show the changes from a specific commit
+- [ ] Show a diff of all the changes you have staged currently
+- [ ] Show a diff of the changes you have staged for a single file
+
+### Commits + staging
+
+- [ ] Stage all files
+- [ ] Revise a commit message
+- [ ] Unstage a single file
+- [ ] Stage a single file
+- [ ] Unstage all changed files
 
 ### Push + Pull
 
@@ -68,16 +78,11 @@
 - [ ] Merging a branch to main locally (without creating a PR)
 - [ ] Handling merge conflicts
 
-### Commits
-
-- [ ] Revise a commit message
-- [ ] Unstage a single file
-- [ ] Stage a single file
-- [ ] Unstage all changed files
-
 ### Moving files
 
 Q: What happens if you rename a file in your branch, and I make changes to it in my own branch, and then we both push our changes?
+
+- [ ] Move a file's tracked location with git (aka renaming)
 
 ### Tags
 
@@ -89,14 +94,21 @@ Q: What happens if you rename a file in your branch, and I make changes to it in
 
 ### Removing unwanted things
 
-- [ ] Git rm: remove files from repo
+- [ ] Git rm: remove files from tracking
+- [ ] Git rm --cached: Remove and keep: remove files from tracking, but keep a local copy
+- [ ] Stashing: temporarily stash all changes
+- [ ] Apply stash: re-apply previously stashed changes
 - [ ] Gitignore: add ignore for things you don't want to be checked in
+
+## Branches
+
+- [ ] Delete a branch
 
 ### Reset and reverting
 
 - [ ] Soft reset: Undoing changes but leaving files staged
 - [ ] Hard reset: Undoing changes and not leaving staged changes
 - [ ] Hard Reset: to a specific commit
-  - Q: What happens here if we made a mistake? How do we get back to a good state?
 - [ ] Revert a change
 - [ ] Entirely reset your branch to the state of a remote branch
+  - Q: What happens here if we made a mistake with a reset? How do we get back to a good state?
