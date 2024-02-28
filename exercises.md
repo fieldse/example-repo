@@ -4,6 +4,11 @@
 
 - [ ] Creating a fork of a repo
 
+### Status
+
+- [ ] Show current state of your local repository with `git status`
+- Note: Develop a habit of always doing this, before you do anything in a git repo!
+
 ### Git config
 
 - [ ] Show git config
@@ -34,10 +39,13 @@
 
 - [ ] Show the changes from a specific commit
 
-### Pull
+### Push + Pull
 
 - [ ] Pull changes from remote
-  - Note: This is a likely place where you may encounter merge conflicts
+  - Note: This is a likely place where you may encounter merge conflicts, when working
+    on a shared repository.
+  - [ ] Pull changes from your `origin` repo
+  - [ ] Pull changes from `upstream` repo
 
 ### Checkouts
 
@@ -46,7 +54,7 @@
 
 ### Merges
 
-- [ ] Merging a branch to main locally
+- [ ] Merging a branch to main locally (without creating a PR)
 - [ ] Handling merge conflicts
 
 ### Commits
@@ -55,6 +63,10 @@
 - [ ] Unstage a single file
 - [ ] Stage a single file
 - [ ] Unstage all changed files
+
+### Moving files
+
+Q: What happens if you rename a file in your branch, and I make changes to it in my own branch, and then we both push our changes?
 
 ### Tags
 
