@@ -1,3 +1,13 @@
+## Questions
+
+- What does a merge do?
+- What do you do if you accidentally push unwanted changes to main?
+- What happens in this scenario?
+  1. You make a branch from main, and make some changes.
+  2. In the meantime there's new changes added to main by someone else.
+  3. You try to merge your new changes. What happens with the changes the other people made? Do they get lost? Overwritten? Can you even merge yours?
+- What happens if you're working on a file in a branch, and then someone makes changes to the same file in main?
+
 ## Exercises
 
 ### Forks
@@ -44,8 +54,9 @@
 - [ ] Pull changes from remote
   - Note: This is a likely place where you may encounter merge conflicts, when working
     on a shared repository.
-  - [ ] Pull changes from your `origin` repo
-  - [ ] Pull changes from `upstream` repo
+- [ ] Pull changes from your `origin` repo
+- [ ] Pull changes from `upstream` repo
+- [ ] Pull changes from remote, and resolve merge conflicts.
 
 ### Checkouts
 
@@ -89,8 +100,3 @@ Q: What happens if you rename a file in your branch, and I make changes to it in
   - Q: What happens here if we made a mistake? How do we get back to a good state?
 - [ ] Revert a change
 - [ ] Entirely reset your branch to the state of a remote branch
-
-## Questions
-
-- What does a merge do?
-- What if we accidentally push changes to main that we don't want?
