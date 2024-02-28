@@ -7,6 +7,7 @@
   2. In the meantime there's new changes added to main by someone else.
   3. You try to merge your new changes. What happens with the changes the other people made? Do they get lost? Overwritten? Can you even merge yours?
 - What happens if you're working on a file in a branch, and then someone makes changes to the same file in main?
+- How do you get unwanted files out of your git repo?
 
 ## Exercises
 
