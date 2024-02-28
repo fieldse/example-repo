@@ -13,12 +13,15 @@
 ### Remotes
 
 - [ ] Add a second remote (origin vs upstream)
+- [ ] List all remotes
+- [ ] Show details of a single remote
 - [ ] Remove a remote
 - [ ] Push to a specific remote
 
 ### Branching
 
-- [ ] Create branch from a branch
+- [ ] Create branch from main
+- [ ] Create branch from the new branch
 - [ ] Switch to your new branch and back
 
 ### Log
@@ -34,7 +37,7 @@
 ### Pull
 
 - [ ] Pull changes from remote
-      note: good opportunity to deal with merge conflicts
+  - Note: This is a likely place where you may encounter merge conflicts
 
 ### Checkouts
 
@@ -49,27 +52,33 @@
 ### Commits
 
 - [ ] Revise a commit message
+- [ ] Unstage a single file
+- [ ] Stage a single file
+- [ ] Unstage all changed files
 
 ### Tags
 
 - [ ] Add a tag to your commit and push the tags to the remote.
 
+### Pull requests
+
+- [ ] Create a pull request from a branch in your fork to an upstream repository
+
 ### Removing unwanted things
 
 - [ ] Git rm: remove files from repo
-- [ ] Gitignore: add ignore for things you don’t want to be checked in
+- [ ] Gitignore: add ignore for things you don't want to be checked in
 
 ### Reset and reverting
 
 - [ ] Soft reset: Undoing changes but leaving files staged
 - [ ] Hard reset: Undoing changes and not leaving staged changes
 - [ ] Hard Reset: to a specific commit
-- What happens here if we made a mistake?
-- [ ] Unstage a single file
+  - Q: What happens here if we made a mistake? How do we get back to a good state?
 - [ ] Revert a change
 - [ ] Entirely reset your branch to the state of a remote branch
 
 ## Questions
 
 - What does a merge do?
-- What if we accidentally push changes to main that we don’t want?
+- What if we accidentally push changes to main that we don't want?
